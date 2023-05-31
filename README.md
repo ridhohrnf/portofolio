@@ -1,6 +1,9 @@
 # React Developer Portfolio template
+
 #### Live Demo https://react-portfolio-v1.netlify.app/
+
 #### Figma Design https://www.figma.com/community/file/1116246660507537002
+
 ### Preview ( Dark Mode )
 
 <img src="/preview.gif" alt="preview" width="600px" />
@@ -14,11 +17,11 @@
 ```javascript
 / Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
+  name: "Ridho",
   tagline: "I build things for web",
   img: profile,
   about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
   when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
 };
 
