@@ -37,7 +37,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
 	name: "Muhammad Ridho Heranof",
-	tagline: "A passionate Data Engineer Developer based in Jakarta Selatan, Indonesia",
+	tagline: "A passionate Data Engineer based in Jakarta Selatan, Indonesia",
 	img: profile,
 	about: `With one year of hands-on experience, including intensive training at a Career Bootcamp and a current role as a Data Engineer at PT Neural Technologies Indonesia, I bring a versatile skill set in data engineering and full-stack development. In my current position, I optimize PostgreSQL databases for maximum performance, and design ETL processes for various data types, including images, Excel files, and data extracted from APIs and data extracted via SFTP. Proficient in Python, SQL, Spark, Data Warehousing, and Cloud Computing, I've designed end-to-end data pipelines using tools like Airflow, Google Cloud Storage, Dataflow, BigQuery, and Kafka. My expertise includes configuring databases, implementing security settings, and using Apache Airflow for ETL workflows. Collaborating with teams, I align databases with business needs. Alongside a strong academic background in Computer Engineering, I'm proficient in ReactJS, .NetCore, Tableau, Looker, Metabase, Apache Spark, AWS Cloud, Google Cloud Platform, and Kafka. I am eager to contribute my skills to projects requiring a robust blend of data engineering and full-stack development expertise.
 `,

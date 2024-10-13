@@ -1,6 +1,7 @@
 import React from "react";
 import Work from "../Components/Work";
 import { personalDetails, workDetails, eduDetails } from "../Details";
+import resumeFile from "../assets/resume-MuhammadRidhoHeranof.pdf";
 
 function About() {
   return (
@@ -42,6 +43,18 @@ function About() {
             />
           ))
         )}
+      </section>
+      <section className="mt-10">
+        <h2 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+          Download My Resume
+        </h2>
+        <a
+          href={resumeFile}
+          download
+          className="mt-4 inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded"
+        >
+          Download Resume
+        </a>
       </section>
     </main>
   );
