@@ -18,7 +18,11 @@ import awsCloud from "./assets/techstack/awsCloud.png";
 import gcs from "./assets/techstack/gcs.png";
 import bq from "./assets/techstack/bq.png";
 import pyspark from "./assets/techstack/pyspark.png";
+import ssis from "./assets/techstack/ssis.png";
+import mongodb from "./assets/techstack/postgre.png";
+import clickhouse from "./assets/techstack/clickhouse.png";
 import python from "./assets/techstack/python.png";
+import postgre from "./assets/techstack/postgre.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
