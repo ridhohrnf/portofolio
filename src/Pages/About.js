@@ -1,7 +1,7 @@
 import React from "react";
 import Work from "../Components/Work";
 import { personalDetails, workDetails, eduDetails } from "../Details";
-import resumeFile from "../assets/resume-MuhammadRidhoHeranof.pdf";
+import resumeFile from "../assets/resume.pdf";
 
 function About() {
   return (
@@ -50,7 +50,7 @@ function About() {
         </h2>
         <a
           href={resumeFile}
-          download
+          download="MuhammadRidhoHeranof_Resume.pdf"
           className="mt-4 inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded"
         >
           Download Resume
