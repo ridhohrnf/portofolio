@@ -8,21 +8,21 @@ import profile from "./assets/profile.png";
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
 import js from "./assets/techstack/js.png";
-import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
-import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
-import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+import tableau from "./assets/techstack/tableau.png";
+import looker from "./assets/techstack/looker.png";
+import airflow from "./assets/techstack/airflow.png";
+import kafka from "./assets/techstack/kafka.png";
+import awsCloud from "./assets/techstack/awsCloud.png";
+import gcs from "./assets/techstack/gcs.png";
+import bq from "./assets/techstack/bq.png";
+import pyspark from "./assets/techstack/pyspark.png";
+import python from "./assets/techstack/python.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
-import projectImage4 from "./assets/projects/project4.png";
 
 // Logos
 export const logos = {
@@ -33,9 +33,9 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
 	name: "Muhammad Ridho Heranof",
-	tagline: "A passionate Front-end React Developer based in Padang, Indonesia",
+	tagline: "A passionate Data Engineer Developer based in Jakarta Selatan, Indonesia",
 	img: profile,
-	about: `	As a recent graduate of Computer Engineering from Andalas University, I have completed a 6-month full-stack development program at Coding ID. During the program, I gained expertise in frontend development using ReactJS, as well as programming with JavaScript and .NET Core for web applications. Additionally, I have experience in database management using MySQL. These skills enable me to design and develop comprehensive and effective software solutions. I also demonstrated strong leadership and teamwork abilities through my involvement in various campus organizations. Combining my technical expertise in coding with my leadership and teamwork capabilities, I am well-equipped to contribute to successful software development projects.
+	about: `With one year of hands-on experience, including intensive training at a Career Bootcamp and a current role as a Data Engineer at PT Neural Technologies Indonesia, I bring a versatile skill set in data engineering and full-stack development. In my current position, I optimize PostgreSQL databases for maximum performance, and design ETL processes for various data types, including images, Excel files, and data extracted from APIs and data extracted via SFTP. Proficient in Python, SQL, Spark, Data Warehousing, and Cloud Computing, I've designed end-to-end data pipelines using tools like Airflow, Google Cloud Storage, Dataflow, BigQuery, and Kafka. My expertise includes configuring databases, implementing security settings, and using Apache Airflow for ETL workflows. Collaborating with teams, I align databases with business needs. Alongside a strong academic background in Computer Engineering, I'm proficient in ReactJS, .NetCore, Tableau, Looker, Metabase, Apache Spark, AWS Cloud, Google Cloud Platform, and Kafka. I am eager to contribute my skills to projects requiring a robust blend of data engineering and full-stack development expertise.
 `,
 };
 
@@ -49,37 +49,30 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
 	{
-		Position: "Tracer Study",
-		Company: `Andalas University`,
-		Location: "Padang",
-		Type: "Part Time",
-		Duration: "October 2021 - Maret 2022",
+		Position: "Database Engineer",
+		Company: `PT Neural Technologies Indonesia`,
+		Location: "Jakarta Selatan",
+		Type: "Contract",
+		Duration: "Desember 2023 - Present",
 	},
 	{
-		Position: "Data Management",
-		Company: `PT Telekomunikasi Indonesia`,
-		Location: "Padang",
-		Type: "Internship",
-		Duration: "Januari 2020 - Maret 2020",
+		Position: "Data Engineer",
+		Company: `PT Pusat Inovasi Nusantara`,
+		Location: "Jakarta Selatan",
+		Type: "Project Based",
+		Duration: "April 2023 – November 2023",
 	},
 	{
-		Position: "IT Consultant Internship",
+		Position: "Data Engineer Internship",
 		Company: `Zephrum Consultant Limited`,
 		Location: "London",
 		Type: "Internship",
-		Duration: "Januari 2022 - Januari 2023",
+		Duration: "Januari 2023 - Maret 2023",
 	},
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
-	{
-		Position: "Fullstack Developer",
-		Company: "Coding ID",
-		Location: "Online",
-		Type: "Bootcamp",
-		Duration: "Jan 2023 - Maret 2023",
-	},
 	{
 		Position: "Bachelor in Computer Engineering",
 		Company: `Andalas University`,
@@ -91,65 +84,56 @@ export const eduDetails = [
 
 // Tech Stack and Tools
 export const techStackDetails = {
+	python: python,
+	javascript: js,
 	html: html,
 	css: css,
-	js: js,
-	react: react,
-	redux: redux,
-	bootstrap: bootstrap,
-	vscode: vscode,
-	postman: postman,
-	npm: npm,
-	git: git,
-	github: github,
 };
+
+export const toolsDE= {
+	tableau:tableau,
+	looker:looker,
+	apacheAirflow:airflow,
+	kafka:kafka,
+	awsCloud:awsCloud,
+	github: github,
+	vscode: vscode,
+	gcs:gcs,
+	bigQuery:bq,
+	pyspark:pyspark
+}
+export const database={
+	ssis:ssis,
+	postgre:postgre,
+	mongodb:mongodb,
+	clickhouse:clickhouse
+}
 
 // Enter your Project Details here
 export const projectDetails = [
 	{
-		title: "Counter and Add Features",
-		image: projectImage1,
-		description: `This website is specifically designed as a practice platform for developers who want to improve their skills in using the useState hook in ReactJS. By providing a range of interactive exercises and examples, it offers a hands-on learning experience that allows developers to gain a deeper understanding of how to effectively utilize useState in their React applications. With step-by-step guidance and real-time feedback, this website empowers developers to strengthen their grasp of state management and build more dynamic and responsive user interfaces using ReactJS.`,
-		techstack: "HTML/CSS, JavaScript",
-		previewLink: "https://counter-and-add-features.vercel.app/",
-		githubLink: "https://github.com/ridhohrnf/Counter-and-Add-movie",
+		title: "Final End to End Project Fraud Analysis",
+		// image: projectImage1,
+		description: `analysis of bank fraud data with the aim of evaluating the fraud detection algorithms developed by previous developers. Additionally, I will analyze patterns of fraudulent transactions that commonly occur from the fraud transaction data over a one-month period. This analysis will generate insights regarding which types of fraudulent transactions are most frequent, the nature of these transactions, and the amounts involved in fraud cases.`,
+		techstack: "airflow, google cloud storage, google big query,pyspark, looker",
+		previewLink: "https://drive.google.com/file/d/1QK3py5AGcqJUjo_JWz8wX4JglrBdK6E1/view?usp=sharing",
+		githubLink:"https://github.com/ridhohrnf/finalproject-df10",
 	},
 	{
-		title: "Portofolio Website",
-		image: projectImage2,
-		description: `This website serves as a practice platform for utilizing the useState hook in ReactJS and showcases my portfolio as a front-end developer, highlighting my skills, projects, and expertise. It provides an interactive environment for developers to gain hands-on experience with useState and enables potential clients and employers to evaluate my capabilities while also acting as a comprehensive digital resume.`,
-		techstack: "HTML/CSS, JavaScript, ReactJS, Tailwind",
-		previewLink: "https://portofolio-ridho.vercel.app/",
-		githubLink: "https://github.com/ridhohrnf/portofolio",
+		title: "ETL Project",
+		// image: projectImage2,
+		description: `This is a repository for an ETL project that utilizes Apache Airflow and PostgreSQL. The project includes the setup of a Directed Acyclic Graph (DAG) to fully ingest data, perform daily updates, and backdate data. It also models the data into a database schema and creates a data mart. One of the key features is the automation of the ETL process, enabling structured data processing from various sources. The sales data is processed and stored in a PostgreSQL schema for further analysis. The project uses Docker to provide a consistent development environment with Docker and Docker Compose, ensuring that operations are idempotent and do not result in unintended data duplication.`,
+		techstack: "airflow,postgres",
+		previewLink:"https://github.com/ridhohrnf/Project-Airflow",
+		githubLink: "https://github.com/ridhohrnf/Project-Airflow",
 	},
 	{
-		title: "Feedback UI",
-		image: projectImage3,
-		description: `This is a project Reactjs. It allows users to add, update and delete feedback. It uses a mock REST api with json-server.
-
-This project goes over all of the fundamentals of React including...
-
-Components
-JSX
-Props (proptypes, defaultprops, etc)
-State (Component & App Level)
-Styling
-Handling Events
-Lists & Keys
-Forms
-Context API
-HTTP Requests`,
-		techstack: "HTML/CSS, JavaScript, ReactJS",
-		previewLink: "https://feedback-app-beta-khaki.vercel.app/",
-		githubLink: "https://github.com/ridhohrnf/Feedback-app",
-	},
-	{
-		title: "Food Shop",
-		image: projectImage4,
-		description: `I am currently engaged in the development of a Food Shop Web application. This project utilizes React.js and .NetCore as the core technologies, and it leverages the robust redmango API to enhance its features and capabilities. With this application, users will be able to explore a wide range of food options, place orders, and enjoy a seamless and efficient online shopping experience. Using redmango API That have Features: Redux, Authentication, Payment API, Pagination, Search`,
-		techstack: "ReactJS, Javascript, .netCore",
-		previewLink: "https://food-shop-liart.vercel.app/",
-		githubLink: "https://github.com/ridhohrnf/Food-shop",
+		title: "Kafka To BQ",
+		// image: projectImage3,
+		description: `Kafka To BQ`,
+		techstack: "Kafka",
+		previewLink:"https://github.com/ridhohrnf/kafka_to_bq",
+		githubLink: "https://github.com/ridhohrnf/kafka_to_bq",
 	},
 ];
 
