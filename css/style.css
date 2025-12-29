@@ -1,0 +1,78 @@
+/* Base Styles */
+body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Glass Effect (Auto Dark/Light) */
+.glass-card {
+  /* Default (Light Mode) */
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Dark Mode Override */
+.dark .glass-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03) 0%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Nav Blur */
+.nav-blur {
+  background: rgba(255, 255, 255, 0.8); /* Light Mode */
+}
+.dark .nav-blur {
+  background: rgba(10, 10, 10, 0.8); /* Dark Mode */
+}
+
+/* Utilities */
+.glow-point {
+  box-shadow: 0 0 10px #00f0ff;
+}
+
+/* Tech Badge Style (Ini bisa dihapus jika sudah tidak dipakai di HTML, tapi disimpan saja aman) */
+.tech-badge {
+  @apply px-3 py-1.5 rounded bg-white/5 border border-white/10 flex items-center gap-2 text-xs text-gray-300 font-mono transition-all hover:border-neon/50 hover:bg-white/10 cursor-default;
+}
+
+/* SECTION STYLE */
+section {
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+/* Typewriter Cursor */
+.cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: #0284c7; /* Biru di Light Mode */
+  animation: blink 1s infinite;
+  margin-left: 5px;
+}
+.dark .cursor {
+  background-color: #00f0ff; /* Neon di Dark Mode */
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Hide Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
