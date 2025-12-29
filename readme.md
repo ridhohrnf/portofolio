@@ -4,18 +4,13 @@
   <p align="center">
     A modern, responsive personal portfolio website showcasing my journey as a Data Engineer.
     <br />
-    <a href="LINK_GITHUB_PAGES_KAMU_DISINI"><strong>View Live Demo »</strong></a>
+    <a href="www.ridhoheranof.com"><strong>View Website »</strong></a>
     <br />
     <br />
-    <a href="#about-the-project">About The Project</a>
-    ·
-    <a href="#tech-stack">Tech Stack</a>
-    ·
-    <a href="#contact">Contact</a>
   </p>
 </div>
 
-![Portfolio Preview](assets/preview.png)
+![Portfolio Preview](images/preview.png)
 
 ## 📌 About The Project
 
